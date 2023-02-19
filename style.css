@@ -1,0 +1,60 @@
+html, body 
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+    background: #000;
+    transition: all 0.5s ease;
+}
+
+.container
+{
+  background: #000;
+  width: 380px;
+  padding: 5px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 7px 2px #fffbfb;
+  border-radius: 4%;
+  outline: 0;
+}
+
+.title
+{
+    color: #fff;
+    text-align: center;margin-top: 70px;
+
+}
+
+.row input
+{
+    color: #fff;
+    width: 370px;
+    font-size: 25px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 3px 3px;
+    height: 100px;
+    background: rgb(17, 16, 16);
+    margin-top: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: -2px -2px 15px rgba(255, 255, 255, 0.1), 2px 2px 5px rgb(106, 103, 103);
+}
+
+.button
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    width: 83px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background: rgb(17, 16, 16);
+    margin-bottom: 15px;
+    margin-right: 5px;
+    box-shadow: -5px -5px 8px rgba(255, 255, 255, 0.1), 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
